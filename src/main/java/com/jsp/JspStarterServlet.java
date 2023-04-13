@@ -16,6 +16,6 @@ public class JspStarterServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("Welcome to my web-app");
+        System.out.println("Welcome to my web-app!");
     }
 }
