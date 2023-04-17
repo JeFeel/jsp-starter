@@ -14,6 +14,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//실제로 등록 처리를 해주는 servlet
+// 등록데이터를 데이터베이스에 넣고 댄서목록을 보여줌
 @WebServlet("/chap02/dancer/reg-process")
 public class DancerRegProcessServlet extends HttpServlet {
 
@@ -53,7 +55,7 @@ public class DancerRegProcessServlet extends HttpServlet {
         dancerMap.put(name, dancer);
 
 
-        // 결과 출력
+        // 결과 출력 --html 그리기
         resp.setContentType("text/html");
         resp.setCharacterEncoding("UTF-8");
 

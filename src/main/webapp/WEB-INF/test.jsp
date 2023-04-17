@@ -7,5 +7,6 @@
 </head>
 <body>
   <h1>test.jsp입니다</h1>
+  <h1>지금은 Servlet으로 우회해서 나오고 있습니다</h1>
 </body>
 </html>
